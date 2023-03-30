@@ -20,7 +20,7 @@ public class AgentController {
 	@Autowired
 	AgentService agentService;
 	
-	@GetMapping(value = "/agnet")
+	@GetMapping(value = "/agent")
 	public List<Agent> getAllAgent()
 	{
 		return agentService.getAllAgent();
